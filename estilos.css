@@ -1,0 +1,60 @@
+.titulo {
+    font-family: Impact;
+    color: #c50707;
+    text-align: center;
+}
+
+.tabContainer {
+    width: 100%;
+    height: 350px;
+    color: black;
+}
+
+.tabContainer .buttonContainer {
+    height: 15%;
+    display: block;
+}
+
+.tabContainer .buttonContainer button {
+    width: 25%;
+    color: rgb(255, 255, 255);
+    height: 100%;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    font-family: Impact;
+    font-size: 18px;
+    background: rgb(0, 0, 0);
+    
+}
+
+.tabContainer .buttonContainer button:hover {
+    background-color: #0a0a0a;
+    color: #c50707;
+    cursor: pointer;
+}
+
+.tabContainer .buttonContainer button:hover::after{
+    color: #eb0e0eb9;
+	content: "";
+    display: block;
+  	width: 0;
+	height: 1px;
+	background:rgb(197, 7, 7);
+	transition: width .3s;
+}
+
+.tabContainer .tabPanel {
+    height: 85%;
+    background-color: gray;
+    color: aqua;
+    text-align: center;
+    padding-top: 105px;
+    box-sizing: border-box;
+    font-family: Impact;
+    font-size: 22px;
+    display: none;
+}
+
