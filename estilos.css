@@ -66,10 +66,21 @@
     display: none;
 }
 
+.tabContainer .tabPanel .cia .dogho {
+    float: left;
+}
+
+.tabContainer .tabPanel .cia .heyho {
+    float: right;
+}
+
 .pie {
+    display: block;
+    margin-top: auto;
     background-color:white;
-    border-radius: 5px;
-    padding-top: 40px;
+    border: 5px solid;
+    border-color: black;
+    padding-top: 0px;
     text-align: center;
     align-items: center;
 
