@@ -10,6 +10,7 @@
     width: 100%;
     height: 100%;
     color: black;
+    text-align: center;
 }
 
 .tabContainer .buttonContainer {
@@ -66,23 +67,42 @@
     height: 85%;
     background-color: gray;
     color: rgb(0, 0, 0);
-    text-align: center;
+   
     padding: 20px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     display: none;
+    position: relative;
+}
+.tabContainer .tabPanel .container {
+    position: relative;
 }
 
-.descargas {
-    box-sizing: border-box;
-    display: inline-flex;
+.tabContainer .tabPanel .container .list-image {
+    display: flex;
     position: relative;
-    padding: 0px;
+    width: 30%;
+
+}
+.tabContainer .tabPanel .container .list-image .separa {
+    margin-left: 20px;
+}
+.btn {
+
     margin-left: 0px;
-    width: 20%%;
-    
-    
+}
+
+}
+
+.tabContainer .tabPanel .descargas {
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 10px;
+    margin-left: 20px;
+    width: 20%;  
+    display: flex; 
 }
 
 .tabContainer .tabPanel .cia .dogho {
